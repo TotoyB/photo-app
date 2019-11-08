@@ -31,9 +31,7 @@
         </button>
         <%= link_to 'Photo App', root_path, class: 'navbar-brand' %>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
-          <ul class="nav navbar-nav">
-            <li><%#= link_to "Link1", "/path1"  %></li>
-          </ul>
+          <%= link_to 'Images', images_path, class: 'navbar-brand' %>
           <ul class="nav navbar-right col-md-4">
             <% if current_user %>
               <li class="col-md-8 user-name">

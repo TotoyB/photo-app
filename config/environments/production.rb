@@ -10,6 +10,9 @@ Rails.application.configure do
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
 
+  #added for stripe api
+  #config.stripe.publishable_key = 'pk_test_vqi2KjC5hzkjgjicFLHNyeD600Ei3BtSBx'
+
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
